@@ -4,12 +4,10 @@ Request URL: http://localhost:8080/fetchdata
 
 RequestHeader:
 content-type:application/json
+limit:10
 
 Request Body:
 {"userName":"kevinmodi"}
-
-Request limit:
-{"limit"=10}
 
 Response(Success):
 {"success":true}
