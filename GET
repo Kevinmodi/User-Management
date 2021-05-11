@@ -8,11 +8,20 @@ content-type:application/json
 Request Body:
 {"userName":"kevinmodi"}
 
+Request limit:
+{"limit"=10}
+
 Response(Success):
 {"success":true}
 
 Response HTTP Status Code:
 200
+
+Faliure Response:
+{"success":false,"reason":"limit exceed"}
+
+Response HTTP Status Code:
+400
 
 Failure Response:
 {"success":false,"reason":"Not Fetch"}
